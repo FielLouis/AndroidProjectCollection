@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">AndroidProjectCollection</string>
+    <string name="btnLabel">Button</string>
+
+    <!-- Layout Exercise -->
+    <string name="btnLayExer">Layout Exercise</string>
+    <string name="user0">Steve</string>
+    <string name="userAlex">Alex</string>
+    <string name="userCow">Cow</string>
+    <string name="userSheep">Sheep</string>
+    <string name="userPig">Pig</string>
+    <string name="userEnderman">Enderman</string>
+    <string name="userVillager">Villager</string>
+    <string name="userCreeper">Creeper</string>
+    <string name="userSkeleton">Skeleton</string>
+    <string name="userZombie">Zombie</string>
+    <string name="userGuardian">Guardian</string>
+    <string name="descLike">Like Button</string>
+    <string name="desc0">Zombie about to throw hands with Steve</string>
+    <string name="commenting">Comment . . .</string>
+
+    <!-- Button Exercise -->
+    <string name="btnBTNExer">Button Exercise</string>
+    <string name="btnClose">Close</string>
+    <string name="btnToast">Toast</string>
+    <string name="btnChangeBG">Change BG</string>
+    <string name="btnChangeBtnBG">Change Button BG</string>
+    <string name="btnDisappear">Disappear</string>
+    <string name="btnReturn">Return</string>
+
+    <!-- Calculator Exercise -->
+    <string name="btnCalcExer">Calculator Exercise</string>
+    <string name="btn0">0</string>
+    <string name="btn1">1</string>
+    <string name="btn2">2</string>
+    <string name="btn3">3</string>
+    <string name="btn4">4</string>
+    <string name="btn5">5</string>
+    <string name="btn6">6</string>
+    <string name="btn7">7</string>
+    <string name="btn8">8</string>
+    <string name="btn9">9</string>
+    <string name="btnAdd">+</string>
+    <string name="btnMin">-</string>
+    <string name="btnMul">×</string>
+    <string name="btnDiv">÷</string>
+    <string name="btnEqu">=</string>
+    <string name="btnDec">.</string>
+
+
+</resources>
