@@ -46,6 +46,6 @@
     <string name="btnDiv">÷</string>
     <string name="btnEqu">=</string>
     <string name="btnDec">.</string>
-
+    <string name="btnClear">Clear</string>
 
 </resources>
