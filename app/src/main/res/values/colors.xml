@@ -11,4 +11,7 @@
     <color name="operator">#FFB512</color>
     <color name="dot">#50E4D8</color>
     <color name="clear">#CA2B08</color>
+    <color name="connect3BG">#0836D3</color>
+    <color name="player1">#E80000</color>
+    <color name="player2">#FBFF0F</color>
 </resources>

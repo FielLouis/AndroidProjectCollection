@@ -48,4 +48,16 @@
     <string name="btnDec">.</string>
     <string name="btnClear">Clear</string>
 
+    <!-- Midterm / ColorMatch Activity -->
+    <string name="btnMidColor">ColorMatch Exam</string>
+    <string name="btnDef"> </string>
+    <string name="btnRetName">RETURN</string>
+    <string name="btnToWin">TO WIN</string>
+    
+    <!-- Connect3 Exercise -->
+    <string name="btnCon3Exer">Connect 3 Exercise</string>
+    <string name="tvPlayer1">Player Red\'s Turn</string>
+    <string name="tvPlayer2">Player Yellow\'s Turn</string>
+    <string name="btnRestart">Restart</string>
+
 </resources>

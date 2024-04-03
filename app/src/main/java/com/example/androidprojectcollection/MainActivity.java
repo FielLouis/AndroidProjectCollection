@@ -10,7 +10,7 @@ import android.widget.Button;
 import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity {
-    Button btn1, btn2, btn3;
+    Button btn1, btn2, btn3, btn4, btn5;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,6 +41,24 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent3 = new Intent(MainActivity.this, CalculatorExercise.class);
                 startActivity(intent3);
+            }
+        });
+
+        btn4 = (Button) findViewById(R.id.btnColorMatch);
+        btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent4 = new Intent(MainActivity.this, ColorMatch_Midterm.class);
+                startActivity(intent4);
+            }
+        });
+
+        btn5 = (Button) findViewById(R.id.btnConnect3);
+        btn5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent5 = new Intent(MainActivity.this, Connect3Exercise.class);
+                startActivity(intent5);
             }
         });
     }
