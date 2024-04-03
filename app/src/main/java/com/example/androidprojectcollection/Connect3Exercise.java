@@ -74,7 +74,7 @@ public class Connect3Exercise extends AppCompatActivity {
 
     private void checkBoard(int playerColor) {
         int count;
-        //check for vertical
+        //check for horizontal
         for(int i = 0; i < 5; i++) {
             count = 0;
             for(int j = 0; j < 5; j++) {
