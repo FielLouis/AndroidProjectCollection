@@ -93,7 +93,9 @@ public class Connect3Exercise extends AppCompatActivity {
         checkBoardHorizontalForwards(playerColor, row, col);
         checkBoardVertical(playerColor, row, col);
         checkBoardDiagonalBackwards(playerColor, row, col);
+        checkBoardDiagonalBackwardsReverse(playerColor, row, col);
         checkBoardDiagonalForwards(playerColor, row, col);
+        checkBoardDiagonalForwardsReverse(playerColor, row, col);
     }
 
     //Helper method to check horizontal (x <- x <- x)
@@ -189,6 +191,27 @@ public class Connect3Exercise extends AppCompatActivity {
         checkBoardDiagonalBackwards(playerColor, row + 1, col + 1); //check top left of painted button
     }
 
+    private void checkBoardDiagonalBackwardsReverse(int playerColor, int row, int col) {
+        if(row < 0 || col < 0) {
+            count = 0;
+            return;
+        }
+
+        if(btnColors[row][col] == playerColor) {
+            count++;
+
+            if(count == 3) {
+                isWin = true;
+                return;
+            }
+        } else {
+            count = 0;
+            return;
+        }
+
+        checkBoardDiagonalBackwardsReverse(playerColor, row - 1, col - 1); //check top left of painted button
+    }
+
     /*
     Helper method to check for diagonal leaning right
         x
@@ -214,6 +237,27 @@ public class Connect3Exercise extends AppCompatActivity {
         }
 
         checkBoardDiagonalForwards(playerColor, row + 1, col - 1); //check top right of painted button
+    }
+
+    private void checkBoardDiagonalForwardsReverse(int playerColor, int row, int col) {
+        if(row < 0 || col >= 5) {
+            count = 0;
+            return;
+        }
+
+        if(btnColors[row][col] == playerColor) {
+            count++;
+
+            if(count == 3) {
+                isWin = true;
+                return;
+            }
+        } else {
+            count = 0;
+            return;
+        }
+
+        checkBoardDiagonalForwardsReverse(playerColor, row - 1, col + 1); //check top right of painted button
     }
 
 
