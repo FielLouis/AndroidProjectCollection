@@ -16,19 +16,22 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="@string/tvStudentProfile" />
+
 
             <LinearLayout
                 android:id="@+id/layoutFname"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:orientation="horizontal">
 
                 <TextView
@@ -39,7 +42,7 @@
                     android:text="@string/txtFname" />
 
                 <TextView
-                    android:id="@+id/tvFname"
+                    android:id="@+id/tvFname2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2" />
@@ -49,6 +52,7 @@
                 android:id="@+id/layoutLname"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:orientation="horizontal">
 
                 <TextView
@@ -59,7 +63,7 @@
                     android:text="@string/txtLname" />
 
                 <TextView
-                    android:id="@+id/tvLname"
+                    android:id="@+id/tvLname2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2" />
@@ -69,6 +73,7 @@
                 android:id="@+id/layoutGender"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:orientation="horizontal">
 
                 <TextView
@@ -79,7 +84,7 @@
                     android:text="@string/tvGender" />
 
                 <TextView
-                    android:id="@+id/tvGender"
+                    android:id="@+id/tvGender2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2" />
@@ -89,6 +94,7 @@
                 android:id="@+id/layoutBirthdate"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:orientation="horizontal">
 
                 <TextView
@@ -99,7 +105,7 @@
                     android:text="@string/tvBdate" />
 
                 <TextView
-                    android:id="@+id/tvBirthdate"
+                    android:id="@+id/tvBirthdate2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2" />
@@ -109,6 +115,7 @@
                 android:id="@+id/layoutPhoneNumber"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:orientation="horizontal">
 
                 <TextView
@@ -119,7 +126,7 @@
                     android:text="@string/tvPhoneNumber" />
 
                 <TextView
-                    android:id="@+id/tvPhoneNumber"
+                    android:id="@+id/tvPhoneNumber2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2" />
@@ -129,6 +136,7 @@
                 android:id="@+id/layoutEmail"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:orientation="horizontal">
 
                 <TextView
@@ -139,7 +147,7 @@
                     android:text="@string/tvEmail" />
 
                 <TextView
-                    android:id="@+id/tvEmail"
+                    android:id="@+id/tvEmail2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2" />
@@ -149,6 +157,7 @@
                 android:id="@+id/layoutCourse"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:orientation="horizontal">
 
                 <TextView
@@ -156,10 +165,10 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="@string/txtFname" />
+                    android:text="@string/tvCourse" />
 
                 <TextView
-                    android:id="@+id/tvCourse"
+                    android:id="@+id/tvCourse2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2" />
@@ -169,6 +178,7 @@
                 android:id="@+id/layoutCivilStatus"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:orientation="horizontal">
 
                 <TextView
@@ -179,7 +189,7 @@
                     android:text="@string/tvCivilStatus" />
 
                 <TextView
-                    android:id="@+id/tvCivilStatus"
+                    android:id="@+id/tvCivilStatus2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2" />
@@ -189,6 +199,7 @@
                 android:id="@+id/layoutHeight"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:orientation="horizontal">
 
                 <TextView
@@ -199,7 +210,7 @@
                     android:text="@string/tvHeight" />
 
                 <TextView
-                    android:id="@+id/tvHeight"
+                    android:id="@+id/tvHeight2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2" />
@@ -209,6 +220,7 @@
                 android:id="@+id/layoutWeight"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:orientation="horizontal">
 
                 <TextView
@@ -219,7 +231,7 @@
                     android:text="@string/tvWeight" />
 
                 <TextView
-                    android:id="@+id/tvWeight"
+                    android:id="@+id/tvWeight2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2" />
@@ -229,6 +241,7 @@
                 android:id="@+id/layoutMunicipality"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:orientation="horizontal">
 
                 <TextView
@@ -239,7 +252,7 @@
                     android:text="@string/tvMunicipality" />
 
                 <TextView
-                    android:id="@+id/tvMunicipality"
+                    android:id="@+id/tvMunicipality2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2" />
@@ -249,6 +262,7 @@
                 android:id="@+id/layoutZIP"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:orientation="horizontal">
 
                 <TextView
@@ -259,7 +273,7 @@
                     android:text="@string/tvZIPcode" />
 
                 <TextView
-                    android:id="@+id/tvZIP"
+                    android:id="@+id/tvZIP2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2" />
@@ -269,6 +283,7 @@
                 android:id="@+id/layoutProvince"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:orientation="horizontal">
 
                 <TextView
@@ -279,11 +294,18 @@
                     android:text="@string/tvProvince" />
 
                 <TextView
-                    android:id="@+id/tvProvince"
+                    android:id="@+id/tvProvince2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2" />
             </LinearLayout>
+
+            <Button
+                android:id="@+id/btnReturn2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btnReturn" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -67,6 +67,20 @@ public class PassingIntentsExercise extends AppCompatActivity {
                 String pNumber = etxtPhoneNumber.getText().toString();
                 String emailAdd = etxtEmailAddress.getText().toString();
                 String course = spinner.getSelectedItem().toString();
+
+                String civilStatus;
+                if(rbSingle.isChecked()) {
+                    civilStatus = "Single";
+                } else if (rbMarried.isChecked()) {
+                    civilStatus = "Married";
+                } else if (rbCivilOther.isChecked()) {
+                    civilStatus = "Other";
+                } else if (rbPreferNotToSay.isChecked()) {
+                    civilStatus = "Prefer not to say";
+                } else {
+                    civilStatus = "Unknown";
+                }
+
                 String height = etxtHeight.getText().toString();
                 String weight = etxtWeight.getText().toString();
                 String municipality = etxtMunicipality.getText().toString();
@@ -74,6 +88,7 @@ public class PassingIntentsExercise extends AppCompatActivity {
                 String province = etxtProvince.getText().toString();
 
                 Intent intent = new Intent(PassingIntentsExercise.this, PassingIntentsExercise2.class);
+
                 intent.putExtra("fname_key", fname);
                 intent.putExtra("lname_key", lname);
                 intent.putExtra("gender_key", gender);
@@ -81,12 +96,42 @@ public class PassingIntentsExercise extends AppCompatActivity {
                 intent.putExtra("pNumber_key", pNumber);
                 intent.putExtra("emailAdd_key", emailAdd);
                 intent.putExtra("course_key", course);
+                intent.putExtra("civilStatus_key", civilStatus);
                 intent.putExtra("height_key", height);
                 intent.putExtra("weight_key", weight);
                 intent.putExtra("municipality_key", municipality);
                 intent.putExtra("zip_key", zip);
                 intent.putExtra("province_key", province);
 
+                startActivity(intent);
+            }
+        });
+
+        btnClear = findViewById(R.id.btnClearForm);
+        btnClear.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                etxtFname.setText("First Name");
+                etxtLname.setText("Last Name");
+
+                rbMale.setChecked(false);
+                rbFemale.setChecked(false);
+                rbGenderOther.setChecked(false);
+
+                etxtBDate.setText("");
+                etxtPhoneNumber.setText("");
+                etxtEmailAddress.setText("");
+
+                rbSingle.setChecked(false);
+                rbMarried.setChecked(false);
+                rbCivilOther.setChecked(false);
+                rbPreferNotToSay.setChecked(false);
+
+                etxtHeight.setText("in cms");
+                etxtWeight.setText("in kgs");
+                etxtMunicipality.setText("");
+                etxtZIPCode.setText("");
+                etxtProvince.setText("");
             }
         });
 
