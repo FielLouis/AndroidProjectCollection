@@ -13,7 +13,6 @@ import android.widget.Toast;
 
 import java.util.Objects;
 
-@RequiresApi(api = Build.VERSION_CODES.O)
 public class Connect3Exercise extends AppCompatActivity {
     boolean isWin, toastDone;
     Button[][] btn;

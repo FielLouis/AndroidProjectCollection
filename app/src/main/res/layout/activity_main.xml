@@ -87,7 +87,7 @@
                     android:layout_gravity="center"
                     android:layout_marginVertical="14dp"
                     android:layout_weight="1"
-                    android:text="@string/btnLabel" />
+                    android:text="@string/btnPassingIntents" />
 
                 <Button
                     android:id="@+id/btn7"
@@ -96,7 +96,7 @@
                     android:layout_gravity="center"
                     android:layout_marginVertical="14dp"
                     android:layout_weight="1"
-                    android:text="@string/btnLabel" />
+                    android:text="@string/btnFragments" />
 
                 <Button
                     android:id="@+id/btn8"
@@ -105,7 +105,7 @@
                     android:layout_gravity="center"
                     android:layout_marginVertical="14dp"
                     android:layout_weight="1"
-                    android:text="@string/btnLabel" />
+                    android:text="@string/btnMenus" />
 
                 <Button
                     android:id="@+id/btn9"

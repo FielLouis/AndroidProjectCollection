@@ -53,11 +53,46 @@
     <string name="btnDef"> </string>
     <string name="btnRetName">RETURN</string>
     <string name="btnToWin">TO WIN</string>
-    
+
     <!-- Connect3 Exercise -->
     <string name="btnCon3Exer">Connect 3 Exercise</string>
     <string name="tvPlayer1">Player Red\'s Turn</string>
     <string name="tvPlayer2">Player Yellow\'s Turn</string>
     <string name="btnRestart">Restart</string>
+
+    <!-- Passing Intents Exercise -->
+    <string name="btnPassingIntents">Passing Intents</string>
+    <string name="tvFormTitle">Student Registration Form</string>
+    <string name="tvCompleteName">Complete Name</string>
+    <string name="tvGender">Gender:</string>
+    <string name="rbMale">Male</string>
+    <string name="rbFemale">Female</string>
+    <string name="rbOther">Other</string>
+    <string name="tvBdate">Birth Date: </string>
+    <string name="tvPhoneNumber">Phone Number: </string>
+    <string name="tvEmail">Email Address: </string>
+    <string name="btnSubmit">Submit</string>
+    <string name="txtFname">First Name:</string>
+    <string name="txtLname">Last Name:</string>
+    <string name="tvCourse">Course: </string>
+    <string name="tvCivilStatus">Civil Status: </string>
+    <string name="rbSingle">Single</string>
+    <string name="rbMarried">Married</string>
+    <string name="rbPreferNotToSay">Prefer not to say</string>
+    <string name="tvHeight">Height: </string>
+    <string name="tvCM">in cms</string>
+    <string name="tvWeight">Weight: </string>
+    <string name="tvKG">in kgs</string>
+    <string name="tvAddress">Physical Address</string>
+    <string name="tvMunicipality">Municipality:</string>
+    <string name="tvZIPcode">ZIP Code:</string>
+    <string name="tvProvince">Province:</string>
+    <string name="tvStudentProfile">Student Profile</string>
+
+    <!-- Fragments Exercise -->
+    <string name="btnFragments">Fragments</string>
+
+    <!-- Menus Exercise -->
+    <string name="btnMenus">Menus</string>
 
 </resources>

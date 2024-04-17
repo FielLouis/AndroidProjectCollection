@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_courses">
+        <item>BS Computer Science</item>
+        <item>BS Information Technology</item>
+        <item>BS Civil Engineering</item>
+        <item>BS Computer Engineering</item>
+        <item>BS Architecture</item>
+    </string-array>
+</resources>

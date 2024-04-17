@@ -12,6 +12,14 @@
         android:theme="@style/Theme.AndroidProjectCollection"
         tools:targetApi="31">
         <activity
+            android:name=".PassingIntentsExercise2"
+            android:configChanges="orientation|screenSize"
+            android:exported="false" />
+        <activity
+            android:name=".PassingIntentsExercise"
+            android:configChanges="orientation|screenSize"
+            android:exported="false" />
+        <activity
             android:name=".Connect3Exercise"
             android:configChanges="orientation|screenSize"
             android:exported="false" />
