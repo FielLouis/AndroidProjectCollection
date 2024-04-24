@@ -94,5 +94,13 @@
 
     <!-- Menus Exercise -->
     <string name="btnMenus">Menus</string>
-
+    <string name="menuChange">Change</string>
+    <string name="menuReset">Reset</string>
+    <string name="menuExit">Exit</string>
+    <string name="menuChangeBtnColor">Button Color</string>
+    <string name="menuChangeBtnTxtColor">Text Color</string>
+    <string name="menuChangeBtnShape">Button Visibility</string>
+    <string name="menuChangeBtnSize">Button Size</string>
+    <string name="menuChangeBtnTxt">Button Text</string>
+    <string name="txtDefault">HI!</string>
 </resources>

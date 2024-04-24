@@ -81,8 +81,8 @@ public class PassingIntentsExercise extends AppCompatActivity {
                     civilStatus = "Unknown";
                 }
 
-                String height = etxtHeight.getText().toString();
-                String weight = etxtWeight.getText().toString();
+                String height = etxtHeight.getText().toString() + " cms";
+                String weight = etxtWeight.getText().toString() + " kgs";
                 String municipality = etxtMunicipality.getText().toString();
                 String zip = etxtZIPCode.getText().toString();
                 String province = etxtProvince.getText().toString();
@@ -111,8 +111,8 @@ public class PassingIntentsExercise extends AppCompatActivity {
         btnClear.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                etxtFname.setText("First Name");
-                etxtLname.setText("Last Name");
+                etxtFname.setText("");
+                etxtLname.setText("");
 
                 rbMale.setChecked(false);
                 rbFemale.setChecked(false);
@@ -127,8 +127,8 @@ public class PassingIntentsExercise extends AppCompatActivity {
                 rbCivilOther.setChecked(false);
                 rbPreferNotToSay.setChecked(false);
 
-                etxtHeight.setText("in cms");
-                etxtWeight.setText("in kgs");
+                etxtHeight.setText("");
+                etxtWeight.setText("");
                 etxtMunicipality.setText("");
                 etxtZIPCode.setText("");
                 etxtProvince.setText("");

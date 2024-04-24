@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mItemChange"
+        android:title="@string/menuChange">
+        <menu>
+            <item
+                android:id="@+id/mItemChangeButtonColor"
+                android:title="@string/menuChangeBtnColor" />
+            <item
+                android:id="@+id/mItemChangeButtonTextColor"
+                android:title="@string/menuChangeBtnTxtColor" />
+            <item
+                android:id="@+id/mItemChangeButtonVisibility"
+                android:title="@string/menuChangeBtnShape" />
+            <item
+                android:id="@+id/mItemChangeButtonSize"
+                android:title="@string/menuChangeBtnSize" />
+            <item
+                android:id="@+id/mItemChangeButtonText"
+                android:title="@string/menuChangeBtnTxt" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/mItemReset"
+        android:title="@string/menuReset" />
+    <item
+        android:id="@+id/mItemExit"
+        android:title="@string/menuExit" />
+</menu>

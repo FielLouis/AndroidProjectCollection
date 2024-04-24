@@ -28,7 +28,10 @@
                 android:id="@+id/tvFormTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/tvFormTitle" />
+                android:text="@string/tvFormTitle"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/tvCompleteName"
@@ -48,8 +51,8 @@
                     android:layout_marginHorizontal="5dp"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="@string/txtFname" />
+                    android:hint="@string/txtFname"
+                    android:inputType="textPersonName" />
 
                 <EditText
                     android:id="@+id/etxtLastName"
@@ -58,8 +61,8 @@
                     android:layout_marginHorizontal="5dp"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="@string/txtLname" />
+                    android:hint="@string/txtLname"
+                    android:inputType="textPersonName" />
 
             </LinearLayout>
 
@@ -250,8 +253,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:ems="10"
-                        android:inputType="textPersonName"
-                        android:text="@string/tvCM" />
+                        android:hint="@string/tvCM"
+                        android:inputType="textPersonName" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -272,8 +275,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:ems="10"
-                        android:inputType="textPersonName"
-                        android:text="@string/tvKG" />
+                        android:hint="@string/tvKG"
+                        android:inputType="textPersonName" />
                 </LinearLayout>
             </LinearLayout>
 
